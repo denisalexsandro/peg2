@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../Style/senha.css">
+</head>
+<body>
+    
+
+    <div class="content">
+
+        <img src="../Imagens/cadeado.png" alt="foto de cadeado" class="cadeado">
+        
+        
+        <form id="form">
+
+            <h1>Recuperação de Senha</h1>
+
+            <div>
+                <input type="email" placeholder="Digite seu email cadastrado" class="inputs required" oninput="emailValidate()">
+                <span class="span-required">Digite um email válido</span>
+            </div>
+            
+            <button onclick="botao()" type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="../Java script/senha.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+    
+
+    <div class="content">
+        <h1>Faça seu Login</h1>
+        <form id="form">
+            <div>
+                <input type="email" placeholder="Digite seu email" class="inputs required" oninput="emailValidate()">
+                <span class="span-required">Digite um email válido</span>
+            </div>
+            <div>
+                <input type="password" placeholder="Digite sua senha" class="inputs required" oninput="mainPasswordValidate()">
+                <span class="span-required">A senha deve conter no mínimo 8 dígitos</span>
+            </div>
+            <a href="./html/senha.html">
+                <p>Esqueci minha senha</p>
+            </a>
+            <button onclick="confirmacaoEmail()" type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="./Java script/script.js"></script>
+</body>
+</html>
